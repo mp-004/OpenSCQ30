@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenSCQ30</string>
+    <string name="equalizer">Ecualizador</string>
+    <string name="hz">%1$d Hz</string>
+    <string name="loading">Cargando</string>
+    <string name="request_permission">Solicitar permiso</string>
+    <string name="bluetooth_permission_is_required">Se requiere permiso de Bluetooth</string>
+    <string name="none">Ninguno</string>
+    <string name="add">Agregar</string>
+    <string name="create">Crear</string>
+    <string name="cancel">Cancelar</string>
+    <string name="name">Nombre</string>
+    <string name="delete_confirm">¿Seguro que quieres eliminar \"%s\"?</string>
+    <string name="delete">Eliminar</string>
+    <string name="back">Atrás</string>
+    <string name="info">Info</string>
+    <string name="source_code" tools:ignore="TypographyOther">
+        &lt;p>El código fuente y los reportes de errores están disponibles en &lt;a href="https://github.com/Oppzippy/OpenSCQ30">https://github.com/Oppzippy/OpenSCQ30&lt;/a>.&lt;/p>
+        &lt;br>
+
+        &lt;p>Copyright (C) Kyle Scheuing&lt;/p>
+        &lt;br>
+
+        &lt;p>This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.&lt;/p>
+        &lt;br>
+
+        &lt;p>This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.&lt;/p>
+        &lt;br>
+
+        &lt;p>You should have received a copy of the GNU General Public License
+        along with this program.  If not, see &amp;lt;&lt;a href="https://www.gnu.org/licenses/">https://www.gnu.org/licenses/&lt;/a>&gt;.&lt;/p>
+    </string>
+    <string name="khz">%s kHz</string>
+    <string name="replace">Reemplazar</string>
+    <string name="connected_to">Conectado a %s</string>
+    <string name="connecting_to">Conectando a %s</string>
+    <string name="disconnected">Desconectado</string>
+    <string name="disconnect">Desconectar</string>
+    <string name="awaiting_connection">Esperando conexión</string>
+    <string name="quick_presets">Preajustes</string>
+    <string name="auto_connect">Conectar automáticamente</string>
+    <string name="settings">Ajustes</string>
+    <string name="unpair_device">Desemparejar dispositivo</string>
+    <string name="unpairing_from_device_name">Desemparejando de %s</string>
+    <string name="unpair">Desemparejar</string>
+    <string name="no_devices_found">No se han encontrado dispositivos</string>
+    <string name="copy_logs_to_clipboard">Copiar registros al portapapeles</string>
+    <string name="unknown">Desconocido</string>
+    <string name="demo">Demo</string>
+    <string name="select_device_model">Seleccionar modelo del dispositivo</string>
+    <string name="select_x">Seleccionar %s</string>
+    <string name="demo_mode">Modo demo</string>
+    <string name="activate">Activar</string>
+    <string name="edit">Editar</string>
+    <string name="no_quick_presets">No hay preajustes</string>
+    <string name="create_quick_preset">Crear preajuste</string>
+    <string name="quick_preset_slot_x">Ranura de preajuste %d</string>
+    <string name="notification_permission_is_required">Se requiere permiso de notificaciones</string>
+    <string name="status_notification">Notificación de estado</string>
+    <string name="featured_setting_x">Ajuste destacado %d</string>
+    <string name="setting_id_with_value">%s: %s</string>
+    <string name="load_current_settings">Cargar ajustes actuales</string>
+    <string name="information">Información</string>
+    <string name="load_current_settings_help">Cargar ajustes actuales reemplazará todos los valores de los preajustes por los valores actuales. Esto no cambiará qué ajustes están habilitados como parte del preajuste.</string>
+    <string name="close">Cerrar</string>
+    <string name="migrate_legacy_equalizer_profiles">Migrar perfiles de ecualizador antiguos</string>
+    <string name="migrate">Migrar</string>
+    <string name="error_pairing">Error al emparejar</string>
+    <string name="error_migrating_legacy_profile">Error al migrar perfil antiguo</string>
+    <string name="error_saving_quick_preset">Error al guardar preajuste</string>
+    <string name="error_activating_quick_preset">Error al activar preajuste</string>
+    <string name="error_changing_settings">Error al cambiar ajustes</string>
+    <string name="error_connecting">Error al conectar</string>
+    <string name="copy_x_to_clipboard">Copiar %s al portapapeles</string>
+    <string name="confirm">Confirmar</string>
+    <string name="import_">Importar</string>
+    <string name="search">Buscar</string>
+    <string name="no_items_found">No se han encontrado elementos</string>
+    <string name="version_2_breaking_changes">
+        &lt;h1>Actualizado a OpenSCQ30 v2&lt;/h1>
+        &lt;br>
+        &lt;b>Breaking Changes&lt;/b>
+        &lt;ul>
+            &lt;li>Custom equalizer profiles are now device specific. Legacy equalizer profiles must be migrated on the Migrate Legacy Equalizer Profiles page after connecting to a device.&lt;/li>
+            &lt;li>Quick presets are now stored in a different format, and no automatic migration is available, so they must be re-created.&lt;/li>
+            &lt;li>Device model auto detection is removed, so you now need to select the device model when adding a device.&lt;/li>
+        &lt;/ul>
+        &lt;p>See &lt;a href="https://github.com/Oppzippy/OpenSCQ30/blob/master/CHANGELOG.md">CHANGELOG.md&lt;/a> for details.&lt;/p>
+    </string>
+</resources>
